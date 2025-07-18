@@ -49,7 +49,7 @@
 
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      {/* <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
           {/* Company Info */}
           <div className="lg:col-span-1">
@@ -58,7 +58,7 @@
                 src="/icon.png"
                 alt="Fronivest"
                 width={40}
-                height={40}
+                height={40} */}
                 className="w-10 h-10 brightness-0 invert"
               />
               <span className="font-bold text-xl text-white-900">
