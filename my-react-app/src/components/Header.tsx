@@ -1,10 +1,10 @@
 "use client";
 
-import { Mail, Phone, MapPin, Instagram, Linkedin } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
+// import { Mail, Phone, MapPin, Instagram, Linkedin } from "lucide-react";
+// import Image from "next/image";
+// import Link from "next/link";
 
-export function Footer() {
+// export function Footer() {
   const currentYear = new Date().getFullYear();
 
   const footerLinks = {
