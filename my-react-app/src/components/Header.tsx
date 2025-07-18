@@ -163,10 +163,10 @@
             </div>
 
             <div className="flex items-center gap-6">
-              {socialLinks.map((social) => {
+              {/* {socialLinks.map((social) => { */}
                 const Icon = social.icon;
                 return (
-                  <a
+                  {/* <a
                     key={social.name}
                     href={social.href}
                     target="_blank"
@@ -175,7 +175,7 @@
                     aria-label={social.name}
                   >
                     <Icon className="h-5 w-5" />
-                  </a>
+                  </a> */}
                 );
               })}
             </div>
