@@ -34,18 +34,18 @@
     ],
   };
 
-  const socialLinks = [
-    {
-      name: "Instagram",
-      href: "https://instagram.com/fronivest",
-      icon: Instagram,
-    },
-    {
-      name: "LinkedIn",
-      href: "https://linkedin.com/company/fronivest",
-      icon: Linkedin,
-    },
-  ];
+//   const socialLinks = [
+//     {
+//       name: "Instagram",
+//       href: "https://instagram.com/fronivest",
+//       icon: Instagram,
+//     },
+//     {
+//       name: "LinkedIn",
+//       href: "https://linkedin.com/company/fronivest",
+//       icon: Linkedin,
+//     },
+//   ];
 
   return (
     <footer className="bg-gray-900 text-white">
