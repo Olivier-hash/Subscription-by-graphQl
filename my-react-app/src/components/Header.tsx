@@ -44,41 +44,7 @@
             </div>
           </div>
 
-          {/* Links */}
-          <div className="lg:col-span-3">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-              <div>
-                <h3 className="font-semibold text-white mb-4">Product</h3>
-                <ul className="space-y-3">
-                  {footerLinks.product.map((link) => (
-                    <li key={link.name}>
-                      <a
-                        href={link.href}
-                        className="text-gray-400 hover:text-white transition-colors text-sm"
-                      >
-                        {link.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="font-semibold text-white mb-4">Company</h3>
-                <ul className="space-y-3">
-                  {footerLinks.company.map((link) => (
-                    <li key={link.name}>
-                      <a
-                        href={link.href}
-                        className="text-gray-400 hover:text-white transition-colors text-sm"
-                      >
-                        {link.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
+          
               <div>
                 {/* <h3 className="font-semibold text-white mb-4">Support</h3>
                 <ul className="space-y-3">
