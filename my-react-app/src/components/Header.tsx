@@ -5,48 +5,7 @@
 // import Link from "next/link";
 
 // export function Footer() {
-  const currentYear = new Date().getFullYear();
-
-  const footerLinks = {
-    product: [
-      { name: "Features", href: "#features" },
-      { name: "Pricing", href: "#pricing" },
-      { name: "Security", href: "#security" },
-      { name: "API", href: "/api" },
-    ],
-    company: [
-      { name: "About Us", href: "/about" },
-      { name: "Careers", href: "/careers" },
-      { name: "Press", href: "/press" },
-      { name: "Blog", href: "/blog" },
-    ],
-    support: [
-      { name: "Help Center", href: "/help" },
-      { name: "Contact Us", href: "/contact" },
-      { name: "Status", href: "/status" },
-      { name: "Community", href: "/community" },
-    ],
-    legal: [
-      { name: "Privacy Policy", href: "/privacy" },
-      { name: "Terms of Service", href: "/terms" },
-      { name: "Cookie Policy", href: "/cookies" },
-      { name: "Compliance", href: "/compliance" },
-    ],
-  };
-
-//   const socialLinks = [
-//     {
-//       name: "Instagram",
-//       href: "https://instagram.com/fronivest",
-//       icon: Instagram,
-//     },
-//     {
-//       name: "LinkedIn",
-//       href: "https://linkedin.com/company/fronivest",
-//       icon: Linkedin,
-//     },
-//   ];
-
+ 
   return (
     <footer className="bg-gray-900 text-white">
       {/* <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
