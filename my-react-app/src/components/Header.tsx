@@ -82,17 +82,7 @@
 
         {/* Bottom Section */}
         
-                    key={social.name}
-                    href={social.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-white transition-colors"
-                    aria-label={social.name}
-                  >
-                    <Icon className="h-5 w-5" />
-                  </a> */}
-                );
-              })}
+              
             </div>
           </div>
         </div>
