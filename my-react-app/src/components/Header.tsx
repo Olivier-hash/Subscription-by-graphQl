@@ -81,17 +81,7 @@
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-gray-800 mt-12 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="text-gray-400 text-sm">
-              © {currentYear} Fronivest. All rights reserved.
-            </div>
-
-            <div className="flex items-center gap-6">
-              {/* {socialLinks.map((social) => { */}
-                const Icon = social.icon;
-                return (
-                  {/* <a
+        
                     key={social.name}
                     href={social.href}
                     target="_blank"
