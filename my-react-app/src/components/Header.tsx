@@ -22,5 +22,5 @@ const Header: React.FC<HeaderProps> = ({ title = "My App" }) => {
     </header>
   );
 };
-//commen
+//comm
 export default Header;
